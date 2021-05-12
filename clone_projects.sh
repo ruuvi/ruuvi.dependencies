@@ -1,4 +1,16 @@
 git -C node-ruuvitag pull || git clone --recurse-submodules https://github.com/io53/node-ruuvitag.git
 git -C BTKit pull || git clone --recurse-submodules https://github.com/rinat-enikeev/BTKit.git
 git -C ruuvicollector pull || git clone --recurse-submodules https://github.com/scrin/ruuvicollector.git
+git -C ruuvitag-common-java pull || git clone --recurse-submodules https://github.com/Scrin/ruuvitag-common-java.git
 git -C ruuvitag-sensor pull || git clone --recurse-submodules https://github.com/ttu/ruuvitag-sensor.git
+git -C ruuvi-hass.io pull || git clone --recurse-submodules https://github.com/ruuvi-friends/ruuvi-hass.io.git
+git -C com.thomashoussin.ruuvitag pull || git clone --recurse-submodules https://github.com/ThomasHoussin/com.thomashoussin.ruuvitag.git
+git -C ruuvitag-aws-iot-monitoring pull || git clone --recurse-submodules https://github.com/markusl/ruuvitag-aws-iot-monitoring.git
+git -C micropython-ruuvitag pull || git clone --recurse-submodules https://github.com/rroemhild/micropython-ruuvitag.git
+git -C RuuviTag-logger pull || git clone --recurse-submodules https://github.com/dimamedia/RuuviTag-logger
+git -C connectiq-ruuvitag pull || git clone --recurse-submodules https://github.com/zmullett/connectiq-ruuvitag.git
+git -C ruuvitag-demo pull || git clone --recurse-submodules https://github.com/koenvervloesem/ruuvitag-demo
+git -C ESP32-Ruuvitag-Collector pull || git clone --recurse-submodules https://github.com/hpirila/ESP32-Ruuvitag-Collector
+git -C ruuvi-on-aws pull || git clone --recurse-submodules https://github.com/bostrom/ruuvi-on-aws.git
+git -C ruuvitag-listener pull || git clone --recurse-submodules https://github.com/lautis/ruuvitag-listener.git
+git -C homebridge-ruuvitag pull || git clone --recurse-submodules https://github.com/pakastin/homebridge-ruuvitag
