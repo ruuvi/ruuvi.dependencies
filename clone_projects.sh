@@ -14,3 +14,4 @@ git -C ESP32-Ruuvitag-Collector pull || git clone --recurse-submodules https://g
 git -C ruuvi-on-aws pull || git clone --recurse-submodules https://github.com/bostrom/ruuvi-on-aws.git
 git -C ruuvitag-listener pull || git clone --recurse-submodules https://github.com/lautis/ruuvitag-listener.git
 git -C homebridge-ruuvitag pull || git clone --recurse-submodules https://github.com/pakastin/homebridge-ruuvitag
+git -C NRuuviTag pull || git clone --recurse-submodules https://github.com/wazzamatazz/NRuuviTag.git
